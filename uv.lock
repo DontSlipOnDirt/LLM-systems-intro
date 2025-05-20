@@ -591,6 +591,7 @@ dependencies = [
     { name = "langchain" },
     { name = "openai" },
     { name = "sentence-transformers" },
+    { name = "transformers" },
 ]
 
 [package.dev-dependencies]
@@ -604,6 +605,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=0.3.25" },
     { name = "openai", specifier = ">=1.79.0" },
     { name = "sentence-transformers", specifier = ">=4.1.0" },
+    { name = "transformers", specifier = ">=4.51.3" },
 ]
 
 [package.metadata.requires-dev]

@@ -1,7 +1,13 @@
 # LLM-fine-tuning
 System of notebooks for easy fine-tuning for students of the Social Data Science program
 
-## Setting up jupyter kernel
+## What there is
+- Fine tuning notebooks:
+    - LoRA finetuning
+    - Houlsby adapter finetuning
+- RAG notebook
+
+## Setting up jupyter kernel with uv
 `uv run ipython kernel install --user --env --active VIRTUAL_ENV $(pwd)/.venv --name=LLM-fine-tuning`
 
 `uv run --with jupyter jupyter lab`
