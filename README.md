@@ -2,9 +2,10 @@
 System of notebooks for easy fine-tuning for students of the Social Data Science program
 
 ## What there is
-- Fine tuning notebooks:
+- Fine tuning notebooks (with classification heads):
     - LoRA finetuning
     - Houlsby adapter finetuning
+    - Fine tune a BERT model
 - RAG notebook
 
 ## Setting up jupyter kernel with uv
