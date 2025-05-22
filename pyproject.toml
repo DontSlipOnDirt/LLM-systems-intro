@@ -1,17 +1,13 @@
 [project]
-name = "llm-fine-tuning"
+name = "llm-systems-intro"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "faiss-cpu>=1.11.0",
-    "langchain>=0.3.25",
-    "langchain-community>=0.3.24",
-    "openai>=1.79.0",
-    "python-dotenv>=1.1.0",
-    "sentence-transformers>=4.1.0",
-    "transformers>=4.51.3",
+    "ipykernel>=6.29.5",
+    "torch>=2.7.0",
+    "transformers>=4.52.2",
 ]
 
 [dependency-groups]
